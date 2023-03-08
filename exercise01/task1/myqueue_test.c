@@ -5,6 +5,9 @@
 
 int main(int argc, char* argv[]) {
 
+	(void)argc;
+	(void)argv;
+
 	myqueue queue;
 	myqueue_init(&queue);
 
