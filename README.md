@@ -13,6 +13,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | ---------- | ---------------- | ------------------------------------- | ------------------- |
 | 2023-03-08 | -                |                                       | C recap slides      |
 | 2023-03-15 | [1](exercise01/) | Self-assessment, ssh, permissions     |                     |
+| 2023-03-22 | [2](exercise02/) | Makefiles, signals, fork              |                     |
 
 ## Coding Guidelines
 
@@ -42,10 +43,6 @@ In the meantime please use the following command to work around this issue:
 `export MANPATH=":$MANPATH"`
 
 ## Connecting to ZID-GPL via SSH
-
-**NOTE**: You have to be inside the University network to be able to connect
-via SSH. See [here](https://www.uibk.ac.at/zid/netz-komm/vpn/) for more
-information.
 
 To log into ZID-GPL via SSH, use the following command on Linux/Mac OSX:
 
