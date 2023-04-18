@@ -9,15 +9,16 @@ This repository contains material required to complete exercises for the OS lab 
 This schedule gives you an overview of the topics we will discuss on each date. It will be updated continuously throughout the semester.
 Note that exercises associated with a given date are to be discussed on that day, i.e., solutions for that exercise have to be handed in via OLAT by 17:00 on the previous day (Tuesdays).
 
-| Date       | Exc              | Topic                                 | Notes               |
-| ---------- | ---------------- | ------------------------------------- | ------------------- |
-| 2023-03-08 | -                |                                       | C recap slides      |
-| 2023-03-15 | [1](exercise01/) | Self-assessment, ssh, permissions     |                     |
-| 2023-03-22 | [2](exercise02/) | Makefiles, signals, fork              |                     |
-| 2023-03-29 | [3](exercise03/) | Env vars, exit codes, pthreads        |                     |
-| 2023-04-05 | -                |                                       | Break               |
-| 2023-04-12 | -                |                                       | Break               |
-| 2023-04-19 | [4](exercise04/) | Debugging, pipes, fifos               |                     |
+| Date       | Exc              | Topic                                                 | Notes               |
+| ---------- | ---------------- | -------------------------------------                 | ------------------- |
+| 2023-03-08 | -                |                                                       | C recap slides    |
+| 2023-03-15 | [1](exercise01/) | Self-assessment, ssh, permissions                     | Makefile slides   |
+| 2023-03-22 | [2](exercise02/) | Makefile, signal, fork                                |                   |
+| 2023-03-29 | [3](exercise03/) | Env vars, exit codes, pthreads                        |                   |
+| 2023-04-05 | -                |                                                       | Break             |
+| 2023-04-12 | -                |                                                       | Break             |
+| 2023-04-19 | [4](exercise04/) | Debugging, pipes, fifos                               |                   |
+| 2023-04-26 | [5](exercise05/) | Shared memory, synchronization, message queues        |                   |
 
 ## Coding Guidelines
 
