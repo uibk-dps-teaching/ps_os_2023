@@ -19,6 +19,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2023-04-12 | -                |                                                       | Break             |
 | 2023-04-19 | [4](exercise04/) | Debugging, pipes, fifos                               |                   |
 | 2023-04-26 | [5](exercise05/) | Shared memory, synchronization, message queues        |                   |
+| 2023-05-03 | [6](exercise06/) | Atomics, mutex, condition variables                   |                   |
 
 ## Coding Guidelines
 
