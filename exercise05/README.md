@@ -22,7 +22,7 @@ Next, two child processes are created.
 The processes run in parallel and perform calculations on the buffer:
 
 - **Child A**: 
-  - The process loops `K` times. In each iteration `i`, the number `N * i` is written into position `i % B` of the circular buffer.
+  - The process loops `K` times, starting from 0. In each iteration `i`, the number `N * (i + 1)` is written into position `i % B` of the circular buffer.
   - It then finishes up, and returns success
 - **Child B**: 
   - The process computes the sum of each element in the circular buffer. It prints the final result, and writes it into the result element in the shared memory. 
@@ -43,8 +43,8 @@ The parent process waits for the termination of both child processes. It reads t
 It then finishes up, and returns success. 
 ```c
 void validate_result(uint64_t result, const uint64_t K, const uint64_t N) {
-    for (uint64_t i = 1; i <= K; i++) {
-        result -= N * i;
+    for (uint64_t i = 0; i < K; i++) {
+        result -= N * (i + 1);
     }
     printf("Checksum: %lu \n", result);
 }
