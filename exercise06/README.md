@@ -24,6 +24,8 @@ Answer the following questions:
 - How does using e.g. `+=` on atomic types relate to using atomic functions such as `atomic_fetch_add`?
 - Which operations other than decrementing/incrementing can be done atomically?
 
+**Hint**: Due to an issue with the GCC version on ZID you might get the error `fatal error: atomic.h: No such file or directory`. To solve this issue, load a more recent compiler version with `module load gcc/9.2.0`. Note that loading modules breaks man pages, which can be fixed with `export MANPATH=":$MANPATH"`.
+
 ## Task 2
 
 In this task you will revisit the producer-consumer pattern, this time with multiple consumers implemented through POSIX threads.
