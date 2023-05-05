@@ -60,6 +60,8 @@ Eliminating player 0
 Player 3 won the game!
 ```
 
+**Note:** The pthread barrier functionality will only compile if you define the right feature test macro. In this case, you can define `-D_POSIX_C_SOURCE=200112L` when compiling your code.
+
 ## Task 2
 
 Continuing with [last week's task 1](../exercise06/README.md), where you synchronized the program using **pthread mutexes**. In this task you will implement your own mutex using atomics. Your solution should at least provide two functions: `my_mutex_lock` and `my_mutex_unlock`. You may come up with additional functions, if needed.
