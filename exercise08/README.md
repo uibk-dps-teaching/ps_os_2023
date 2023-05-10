@@ -154,9 +154,9 @@ Example output:
 
 ```text
 ┌──────────────────────────────────┬───────────────────────────────────────────────┬───────────────────────────────┐
-│ TERMINAL 1                       │ TERMINAL 2                                    │ TERMINAL 3                     │
+│ TERMINAL 1                       │ TERMINAL 2                                    │ TERMINAL 3                    │
 ├──────────────────────────────────┼───────────────────────────────────────────────┼───────────────────────────────┤
-│ $ ./server 8888                  │                                               │ $ curl http://localhost:8888/ │
+│ $ ./server 8888 5                │                                               │ $ curl http://localhost:8888/ │
 │ Listening on port 8888.          │                                               │ <response body>               │
 │                                  │ $ curl http://localhost:8888/                 │                               │
 │                                  │ <response body>                               │                               │
