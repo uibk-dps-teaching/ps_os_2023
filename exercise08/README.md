@@ -81,7 +81,7 @@ Answer the following questions:
 - The example uses `INADDR_ANY`. Could we also use `INADDR_LOOPBACK`?
 - The example uses `SOCK_STREAM`. Name two other types of sockets and briefly explain their difference compared to `SOCK_STREAM`.
 - What is the range of possible ports that we assign to `addr.sin_port`.
-- Why is it a good idea to use a port grater or equal to 1024?
+- Why is it a good idea to use a port greater or equal to 1024?
 
 ## Task 3
 
@@ -156,10 +156,10 @@ Example output:
 ┌──────────────────────────────────┬───────────────────────────────────────────────┬───────────────────────────────┐
 │ TERMINAL 1                       │ TERMINAL 2                                    │ TERMINAL 3                    │
 ├──────────────────────────────────┼───────────────────────────────────────────────┼───────────────────────────────┤
-│ $ ./server 8888 5                │                                               │ $ curl http://localhost:8888/ │
-│ Listening on port 8888.          │                                               │ <response body>               │
-│                                  │ $ curl http://localhost:8888/                 │                               │
-│                                  │ <response body>                               │                               │
+│ $ ./server 8888 5                │                                               │                               │
+│ Listening on port 8888.          │                                               │                               │
+│                                  │ $ curl http://localhost:8888/                 │ $ curl http://localhost:8888/ │
+│                                  │ <response body>                               │ <response body>               │
 │                                  │                                               │                               │
 │                                  │                                               │                               │
 │                                  │ $ curl -X POST http://localhost:8888/shutdown │ $ curl http://localhost:8888/ │
