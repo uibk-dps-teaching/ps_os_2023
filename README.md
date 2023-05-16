@@ -22,6 +22,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2023-05-03 | [6](exercise06/) | Atomics, mutex, condition variables                   |                   |
 | 2023-05-10 | [7](exercise07/) | Barriers, mutex, thread pool                          |                   |
 | 2023-05-17 | [8](exercise08/) | strace, TCP sockets, HTTP web server                  |                   |
+| 2023-05-24 | [9](exercise09/) | TCP sockets (chat)                                    |                   |
 
 ## Coding Guidelines
 
