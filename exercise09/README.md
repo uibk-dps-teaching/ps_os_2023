@@ -128,17 +128,17 @@ exc09_csXXXXXX.zip
 ├── task1
 │   ├── Makefile
 │   ├── client.c
-│   ├── common.h
+│   ├── common.h         # optional
 │   └── server.c
 ├── task2
 │   ├── Makefile
 │   ├── client.c
-│   ├── common.h
+│   ├── common.h         # optional
 │   └── server.c
 └── task3
     ├── Makefile
     ├── client.c
-    ├── common.h
+    ├── common.h         # optional
     └── server.c
 ```
 
