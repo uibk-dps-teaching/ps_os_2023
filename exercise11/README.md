@@ -60,7 +60,7 @@ The initial string is used as input for the first plugin.
 The result of the first plugin is used as input for the second plugin — and so on.
 
 ```sh
-LD_LIBRARY_PATH=. ./map_string "Hello world" ./double.so ./uppercase.so ./removeWhitespace.so
+LD_LIBRARY_PATH=. ./map_string "Hello world" ./double.so ./uppercase.so ./remove_whitespace.so
 ./double.so: Hello worldHello world
 ./uppercase.so: HELLO WORLDHELLO WORLD
 ./remove_whitespace.so: HELLOWORLDHELLOWORLD
@@ -107,16 +107,16 @@ exc11_csXXXXXX.zip
 ├── Makefile
 ├── group.txt
 ├── task1
-│   ├── Makefile
-│   ├── my_program.c
-│   ├── solution.txt
-│   └── some_library.c
+│   ├── Makefile
+│   ├── my_program.c
+│   ├── solution.txt
+│   └── some_library.c
 ├── task2
-│   ├── Makefile
-│   ├── double.c              # optional
-│   ├── map_string.c
-│   ├── remove_whitespace.c   # optional
-│   └── uppercase.c           # optional
+│   ├── Makefile
+│   ├── double.c              # optional
+│   ├── map_string.c
+│   ├── remove_whitespace.c   # optional
+│   └── uppercase.c           # optional
 └── task3
     ├── Makefile
     └── malloc_spy.c
