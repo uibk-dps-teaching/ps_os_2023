@@ -25,6 +25,9 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2023-05-24 | [9](exercise09/) | TCP sockets (chat)                                    |                   |
 | 2023-05-31 | [10](exercise10/)| Custom allocators                                     |                   |
 | 2023-06-07 | [11](exercise11/)| Linking                                               |                   |
+| 2023-06-14 | [12](exercise12/)| Last year's test                                      | Bonus points      |
+| 2023-06-21 | -                |                                                       | Test              |
+| 2023-06-28 | -                |                                                       | Q&A, Feedback     |
 
 ## Coding Guidelines
 
